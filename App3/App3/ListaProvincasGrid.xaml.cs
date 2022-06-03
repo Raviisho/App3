@@ -67,9 +67,9 @@ namespace App3
             btnDarkModeProvincias.BackgroundColor = ColorBackgroundSecondary;
             btnRecordatorio.BackgroundColor = ColorBackgroundSecondary;
             stkBodyProvincias.BackgroundColor = ColorBackgroundSecondary;
-            stkBodyProvincias2.BackgroundColor = ColorBackgroundSecondary;
 
-            grdFondoProvincias.BackgroundColor = ColorBackgroundPrimary;
+            stkBodyProvincias2.BackgroundColor = ColorBackgroundPrimary;
+
         }
     }
 }
