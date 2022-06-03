@@ -17,7 +17,7 @@
                 <StackLayout x:Name="stkBody" BackgroundColor="#efefef">
 
                     <Button x:Name="btnVentanaEmergente" Text="Recordatorio" FontSize="Micro"></Button>
-                    
+
                     <StackLayout Orientation="Horizontal">
                         <Image Source="Marcos.jpg" WidthRequest="64" HeightRequest="64"></Image>
                         <Label x:Name="lblMarcos" Text="Marcos Lescano" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="#1f1f1f" FontSize="Large"/>

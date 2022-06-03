@@ -10,7 +10,7 @@ namespace App3
         {
             InitializeComponent();
 
-            MainPage = new ListaAlumnos();
+            MainPage = new Page1();
 
         }
 
