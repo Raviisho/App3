@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:fonts="clr-namespace:App3.Fonts;assembly=App3"
              x:Class="App3.ListaAlumnos">
     <ContentPage.Content>
         <StackLayout x:Name="stkBody2" BackgroundColor="#efefef">

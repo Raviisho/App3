@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace App3
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page1 : ContentPage
+    public partial class ListaProvincias : ContentPage
     {
-        public Page1()
+        public ListaProvincias()
         {
             InitializeComponent();
             btnRecordatorio.Clicked += MostrarRecordatorio;
@@ -67,8 +67,9 @@ namespace App3
             btnDarkModeProvincias.BackgroundColor = ColorBackgroundSecondary;
             btnRecordatorio.BackgroundColor = ColorBackgroundSecondary;
             stkBodyProvincias.BackgroundColor = ColorBackgroundSecondary;
+            stkBodyProvincias2.BackgroundColor = ColorBackgroundSecondary;
 
-            stkBodyProvincias2.BackgroundColor = ColorBackgroundPrimary;
+            grdFondoProvincias.BackgroundColor = ColorBackgroundPrimary;
 
         }
     }

@@ -11,13 +11,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Fonts\fontello.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\fontello.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="ListaProvincasGrid.xaml.cs">
-      <DependentUpon>ListaProvincasGrid.xaml</DependentUpon>
+    <Compile Update="ListaProvincias.xaml.cs">
+      <DependentUpon>ListaProvincias.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
@@ -25,7 +33,7 @@
     <EmbeddedResource Update="ListaAlumnos.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ListaProvincasGrid.xaml">
+    <EmbeddedResource Update="ListaProvincias.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

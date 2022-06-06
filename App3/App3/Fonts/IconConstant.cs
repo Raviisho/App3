@@ -1,0 +1,86 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace App3.Fonts
+{
+	public static class IconConstant
+	{
+		public const string ThumbsUp = "\ue800";
+		public const string ThumbsDown = "\ue801";
+		public const string Cancel = "\ue802";
+		public const string CancelCircled = "\ue803";
+		public const string CancelCircled2 = "\ue804";
+		public const string Search = "\ue805";
+		public const string Plus = "\ue806";
+		public const string Heart = "\ue807";
+		public const string HeartEmpty = "\ue808";
+		public const string Star = "\ue809";
+		public const string StarEmpty = "\ue80a";
+		public const string InfoCircled = "\ue80b";
+		public const string HelpCircled = "\ue80c";
+		public const string Home = "\ue80d";
+		public const string Eye = "\ue80e";
+		public const string EyeOff = "\ue80f";
+		public const string Ok = "\ue810";
+		public const string OkCircled = "\ue811";
+		public const string OkCircled2 = "\ue812";
+		public const string Comment = "\ue813";
+		public const string Logout = "\ue814";
+		public const string Calendar = "\ue815";
+		public const string Cog = "\ue816";
+		public const string DownOpen = "\ue817";
+		public const string LeftOpen = "\ue818";
+		public const string RightOpen = "\ue819";
+		public const string UpOpen = "\ue81a";
+		public const string DownBig = "\ue81b";
+		public const string LeftBig = "\ue81c";
+		public const string RightBig = "\ue81d";
+		public const string UpBig = "\ue81e";
+		public const string Ccw = "\ue81f";
+		public const string AlignJustify = "\ue820";
+		public const string Check = "\ue821";
+		public const string Block = "\ue822";
+		public const string Ok1 = "\ue823";
+		public const string ThList = "\ue824";
+		public const string ThListOutline = "\ue825";
+		public const string Calendar1 = "\ue826";
+		public const string LeftOpenOutline = "\ue827";
+		public const string LeftOpen1 = "\ue828";
+		public const string RightOpenOutline = "\ue829";
+		public const string RightOpen1 = "\ue82a";
+		public const string Menu1 = "\ue82b";
+		public const string MenuOutline = "\ue82c";
+		public const string CogOutline = "\ue82d";
+		public const string Cog1 = "\ue82e";
+		public const string WrenchOutline = "\ue82f";
+		public const string Spin1 = "\ue830";
+		public const string Spin2 = "\ue831";
+		public const string Spin3 = "\ue832";
+		public const string Spin4 = "\ue834";
+		public const string Spin5 = "\ue838";
+		public const string Spin6 = "\ue839";
+		public const string CheckEmpty = "\uf096";
+		public const string GithubCircled = "\uf09b";
+		public const string Filter = "\uf0b0";
+		public const string Menu = "\uf0c9";
+		public const string ListBullet = "\uf0ca";
+		public const string Code = "\uf121";
+		public const string Info = "\uf129";
+		public const string CalendarEmpty = "\uf133";
+		public const string ThumbsUpAlt = "\uf164";
+		public const string ThumbsDownAlt = "\uf165";
+		public const string Google = "\uf1a0";
+		public const string Sliders = "\uf1de";
+		public const string Share = "\uf1e0";
+		public const string CcVisa = "\uf1f0";
+		public const string CcMastercard = "\uf1f1";
+		public const string CcDiscover = "\uf1f2";
+		public const string CcAmex = "\uf1f3";
+		public const string CcPaypal = "\uf1f4";
+		public const string CcStripe = "\uf1f5";
+		public const string ToggleOff = "\uf204";
+		public const string ToggleOn = "\uf205";
+		public const string UserPlus = "\uf234";
+	}
+}

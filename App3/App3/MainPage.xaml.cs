@@ -15,14 +15,14 @@ namespace App3
             InitializeComponent();
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void OpenListaAlumnos(object sender, EventArgs e)
         {
-            
+            Navigation.PushAsync(new ListaAlumnos());
         }
 
-        private void Button_Clicked_1(object sender, EventArgs e)
+        private void OpenListaProvincias(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new ListaProvincias());
         }
     }
 }

@@ -10,7 +10,7 @@ namespace App3
         {
             InitializeComponent();
 
-            MainPage = new Page1();
+            MainPage = new NavigationPage(new MainPage());
 
         }
 
