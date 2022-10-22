@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.InicioNavigationPage"
+             NavigationPage.HasBackButton="True"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="Large">Pruebas Xamarin</Label>
+                <Image Source="logoisp20"/>
+            </StackLayout>
+            <Button Text="Lista de Alumnos" Clicked="AbrirListaAlumnos"
+                    BackgroundColor="{StaticResource ColorBotones}"></Button>
+            <Button Text="Lista de Provincias" Clicked="AbrirListaProvincias"
+                    BackgroundColor="{StaticResource ColorBotones}"></Button>
+            <Button Text="Controles Comunes" Clicked="AbrirControlesComunes"
+                    BackgroundColor="{StaticResource ColorBotones}"></Button>
+            <Button Text="Lista de productos" Clicked="AbrirListaProductos"
+                    BackgroundColor="{StaticResource ColorBotones}"></Button>
+            <Button Text="Lista de actividades" Clicked="AbrirListaActividades"
+                    BackgroundColor="{StaticResource ColorBotones}"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
