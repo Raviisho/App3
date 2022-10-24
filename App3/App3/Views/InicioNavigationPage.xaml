@@ -3,23 +3,55 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App3.InicioNavigationPage"
              NavigationPage.HasBackButton="True"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="{StaticResource backdround}">
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout Orientation="Horizontal">
-                <Label FontSize="Large">Pruebas Xamarin</Label>
-                <Image Source="logoisp20"/>
+            <StackLayout>
+                <StackLayout.Background>
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="{StaticResource colorSecundary}"
+                          Offset="0.1" />
+                        <GradientStop Color="{StaticResource backdround}"
+                          Offset="1.0" />
+                    </LinearGradientBrush>
+                </StackLayout.Background>
+                <Grid Margin="10,25,10,25">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Frame Margin="0" BackgroundColor="{StaticResource backdround}" CornerRadius="15" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="5" Padding="15">
+                    <Label FontSize="20" FontFamily="QuicksandSB" VerticalOptions="Center">Lions Club App</Label>
+                </Frame>
+                <ImageButton VerticalOptions="Center" Source="logo" HeightRequest="42" WidthRequest="42" CornerRadius="100" BackgroundColor="Transparent" Grid.Column="4"/>
+            </Grid>
             </StackLayout>
-            <Button Text="Lista de Alumnos" Clicked="AbrirListaAlumnos"
-                    BackgroundColor="{StaticResource ColorBotones}"></Button>
-            <Button Text="Lista de Provincias" Clicked="AbrirListaProvincias"
-                    BackgroundColor="{StaticResource ColorBotones}"></Button>
-            <Button Text="Controles Comunes" Clicked="AbrirControlesComunes"
-                    BackgroundColor="{StaticResource ColorBotones}"></Button>
-            <Button Text="Lista de productos" Clicked="AbrirListaProductos"
-                    BackgroundColor="{StaticResource ColorBotones}"></Button>
-            <Button Text="Lista de actividades" Clicked="AbrirListaActividades"
-                    BackgroundColor="{StaticResource ColorBotones}"></Button>
+            <ScrollView VerticalOptions="FillAndExpand">
+            </ScrollView>
+
+            <Grid Padding="0, 0, 0, 15" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <!-- <ImageButton HeightRequest="50" WidthRequest="50" Source="" CornerRadius="26" Clicked="AbrirListaProvincias" BackgroundColor="{StaticResource colorPrimary}"></ImageButton>
+                <ImageButton HeightRequest="50" WidthRequest="50" Source="" CornerRadius="26" Clicked="AbrirControlesComunes" BackgroundColor="{StaticResource colorPrimary}"></ImageButton> -->
+                <ImageButton BackgroundColor="Transparent" HeightRequest="36" WidthRequest="36" Source="grupo" CornerRadius="36" Clicked="AbrirListaAlumnos" Grid.Column="0"></ImageButton>
+                <ImageButton BackgroundColor="Transparent" HeightRequest="36" WidthRequest="36" Source="caja" CornerRadius="36" Clicked="AbrirListaProductos" Grid.Column="1"></ImageButton>
+                <ImageButton BackgroundColor="Transparent" HeightRequest="36" WidthRequest="36" Source="portapapeles" CornerRadius="36" Clicked="AbrirListaActividades" Grid.Column="2"></ImageButton>
+            </Grid>
         </StackLayout>
+        
     </ContentPage.Content>
 </ContentPage>

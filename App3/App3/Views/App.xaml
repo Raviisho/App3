@@ -3,6 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App3.App">
     <Application.Resources>
-        <Color x:Key="ColorBotones">Violet</Color>
+        <Color x:Key="backdround">#f2f2f2</Color>
+        <Color x:Key="colorPrimary">#ffd000</Color>
+        <Color x:Key="colorPrimaryDark">#ffa600</Color>
+        <Color x:Key="colorAccent">#ffe262</Color>
+        <Color x:Key="colorSecundaryDark">#00389e</Color>
+        <Color x:Key="colorSecundary">#00529e</Color>
+        <Color x:Key="colorAccentSecundary">#63b4ff</Color>
     </Application.Resources>
 </Application>
