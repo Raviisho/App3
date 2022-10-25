@@ -44,12 +44,14 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <!-- <ImageButton HeightRequest="50" WidthRequest="50" Source="" CornerRadius="26" Clicked="AbrirListaProvincias" BackgroundColor="{StaticResource colorPrimary}"></ImageButton>
                 <ImageButton HeightRequest="50" WidthRequest="50" Source="" CornerRadius="26" Clicked="AbrirControlesComunes" BackgroundColor="{StaticResource colorPrimary}"></ImageButton> -->
                 <ImageButton BackgroundColor="Transparent" HeightRequest="36" WidthRequest="36" Source="grupo" CornerRadius="36" Clicked="AbrirListaAlumnos" Grid.Column="0"></ImageButton>
                 <ImageButton BackgroundColor="Transparent" HeightRequest="36" WidthRequest="36" Source="caja" CornerRadius="36" Clicked="AbrirListaProductos" Grid.Column="1"></ImageButton>
                 <ImageButton BackgroundColor="Transparent" HeightRequest="36" WidthRequest="36" Source="portapapeles" CornerRadius="36" Clicked="AbrirListaActividades" Grid.Column="2"></ImageButton>
+                <ImageButton BackgroundColor="Transparent" HeightRequest="36" WidthRequest="36" Source="portapapeles" CornerRadius="36" Clicked="AbrirListaCobradores" Grid.Column="3"></ImageButton>
             </Grid>
         </StackLayout>
         

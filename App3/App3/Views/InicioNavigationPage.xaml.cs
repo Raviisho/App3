@@ -34,11 +34,23 @@ namespace App3
 
             MessagingCenter.Subscribe<object>(this, "VolverAActividadesView",
                 async (obj) => await Navigation.PopAsync());
+
+            MessagingCenter.Subscribe<object>(this, "AbrirNuevoEditarCobradorView",
+                async (obj) => await Navigation.PushAsync(new NuevoEditarCobradorView()));
+
+            MessagingCenter.Subscribe<object, Cobrador>(this, "AbrirNuevoEditarCobradorView",
+                async (obj, cobradorAModificar) =>
+                {
+                    await Navigation.PushAsync(new NuevoEditarCobradorView(cobradorAModificar));
+                });
+            MessagingCenter.Subscribe<object>(this, "VolverACobradoresView",
+                async (obj) => await Navigation.PopAsync());
         }
         public async void AbrirListaAlumnos(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new ListaAlumnos());
         }
+
         public async void AbrirListaProvincias(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new ListaProvinciasGrid());
@@ -47,6 +59,12 @@ namespace App3
         {
             await Navigation.PushAsync(new ControlesComunes());
         }
+
+        public async void AbrirListaCobradores(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CobradoresView());
+        }
+
         public async void AbrirListaProductos(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new ProductoView());
